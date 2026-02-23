@@ -1,0 +1,18 @@
+# 핵심 워크플로우 및 에이전트 관리
+langgraph>=0.0.15
+langchain-ollama>=0.1.0
+langchain-core>=0.1.30
+
+# 데이터 구조 및 검증 (State 정의용)
+pydantic>=2.0.0
+
+# 환경 변수 관리 (Ollama URL 등)
+python-dotenv>=1.0.0
+
+# 비동기 통신 및 유틸리티
+httpx>=0.24.1
+asyncio>=3.4.3
+
+# (선택) API 서버 확장을 위함
+fastapi>=0.100.0
+uvicorn>=0.22.0
